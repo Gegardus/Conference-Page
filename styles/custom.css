@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 @font-face {
-  font-family: 'Cocogoose';
+  font-family: "Cocogoose";
   src: url(../assets/Cocogoose_trial.otf);
-  src: local('Cocogoose'), url(../assets/Cocogoose_trial.otf) format('truetype');
+  src: local("Cocogoose"), url(../assets/Cocogoose_trial.otf) format("truetype");
 }
 
 * {
@@ -12,6 +12,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/* Variables */
 
 :root {
   --colorBl: #272a31;
@@ -22,8 +24,8 @@
   --fontSize-h1: 2.5rem;
   --fontSize-h3: 1.2rem;
   --font-size-p: 1.05rem;
-  --fontFamily-coco: 'Cocogoose', san-serif;
-  --fontFamily-lato: 'Lato', sans-serif;
+  --fontFamily-coco: "Cocogoose", san-serif;
+  --fontFamily-lato: "Lato", sans-serif;
 }
 
 h1 {
@@ -93,7 +95,7 @@ header {
   height: 100vh;
   top: -200%;
   left: 0;
-  background: var(--colorBl) url('../assets/images/pattern-bg.png');
+  background: var(--colorBl) url("../assets/images/pattern-bg.png");
   transition: top 2s;
   display: flex;
   flex-direction: column;
@@ -160,7 +162,7 @@ header {
 .navbar-main__link {
   text-decoration: none;
   color: var(--colorWh);
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -194,7 +196,7 @@ header {
 }
 
 #headline::before {
-  content: ' ';
+  content: " ";
   display: block;
   position: absolute;
   left: 0;
@@ -202,7 +204,7 @@ header {
   width: 100%;
   height: 100%;
   opacity: 0.2;
-  background-image: url('../assets/images/planets.png');
+  background-image: url("../assets/images/planets.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -224,7 +226,7 @@ header {
 
 .headline__h1 {
   font-weight: 900;
-  background-image: url('../assets/images/sun.jpeg');
+  background-image: url("../assets/images/sun.jpeg");
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -261,7 +263,7 @@ header {
 /* Panels */
 
 #events {
-  background: #272a31 url('../assets/images/pattern-bg.png');
+  background: #272a31 url("../assets/images/pattern-bg.png");
 }
 
 #events .container-fluid {
@@ -397,7 +399,7 @@ header {
   height: 70px;
   top: 0;
   left: 0;
-  background: url('../assets/images/speakerbg.png');
+  background: url("../assets/images/speakerbg.png");
   opacity: 0.7;
   border: 1px solid black;
 }
@@ -437,7 +439,7 @@ header {
 }
 
 #about-hero::before {
-  content: ' ';
+  content: " ";
   display: block;
   position: absolute;
   left: 0;
@@ -445,7 +447,7 @@ header {
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  background-image: url('../assets/images/MilkyWay.jpg');
+  background-image: url("../assets/images/MilkyWay.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -536,12 +538,12 @@ header {
   padding: 5%;
   border: 1px solid var(--colorGr);
   margin-top: 5%;
-  transition-duration: 1.20s;
-  transition-delay: 1.0s;  
+  transition-duration: 1.2s;
+  transition-delay: 1s;
 }
 
 .about-logo__show:hover {
-  transform: scale(1.40);
+  transform: scale(1.4);
 }
 
 .about-logo__show img {
@@ -678,7 +680,7 @@ header {
   font-weight: 500;
   text-align: center;
   font-family: var(--fontFamily-lato);
-}  
+}
 
 #partners-main .container-fluid {
   padding: 10% 0 10%;
@@ -736,7 +738,7 @@ header {
 /* Footer */
 
 #footer {
-  padding: 5px 0 5px; 
+  padding: 5px 0 5px;
 }
 
 #footer-main {

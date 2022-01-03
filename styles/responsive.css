@@ -1,7 +1,8 @@
 /* Desktop */
 
 @media (min-width: 768px) {
-  
+  /* Variables */
+
   :root {
     --colorBl: #272a31;
     --colorOr: #ec5242;
@@ -12,8 +13,8 @@
     --fontSizeD-h3: 1.7rem;
     --colorDG: rgb(163, 161, 161);
     --font-sizeD-p: 1.23rem;
-    --fontFamily-coco: 'Cocogoose', san-serif;
-    --fontFamily-lato: 'Lato', sans-serif;
+    --fontFamily-coco: "Cocogoose", san-serif;
+    --fontFamily-lato: "Lato", sans-serif;
   }
 
   h1 {
@@ -301,8 +302,7 @@
   .galactic,
   .bank,
   .om,
-  .soundcloud
-  {
+  .soundcloud {
     width: auto;
     flex: 1 1 80px;
   }
@@ -394,9 +394,9 @@
   }
 
   /* Footer */
-  
-  #footer {   
-    background-color: #272a31;    
+
+  #footer {
+    background-color: #272a31;
     padding: 2%;
   }
 
@@ -413,7 +413,7 @@
   #footer .container-fluid p {
     font-family: var(--fontFamily-lato);
     font-weight: normal;
-    color:var(--colorWh);
+    color: var(--colorWh);
     font-size: 0.8rem;
   }
 
