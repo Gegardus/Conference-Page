@@ -2,7 +2,7 @@ const speakersSection = document.querySelector('#featured-speakers .container-fl
 const speakersArray = [{
   name: 'Janie Orlean',
   status: 'The President of the United States of America',
-  desc: 'The national leader who happened to be at the helm of power at the fateful hour for the planet',  
+  desc: 'The national leader who happened to be at the helm of power at the fateful hour for the planet',
   image: 'assets/images/jan.jpeg',
   class: 'speaker1',
 },
@@ -37,7 +37,7 @@ const speakersArray = [{
 {
   name: 'Dr. Teddy Oglethrope',
   status: 'The Head of the Planetary Defense Coordination Office',
-  desc: 'A scientist occupying an important administrative position in the government, but unable to exercise his powers',  
+  desc: 'A scientist occupying an important administrative position in the government, but unable to exercise his powers',
   image: 'assets/images/Teddy.jpg',
   class: 'speaker6',
 },
@@ -59,7 +59,7 @@ function createSpeakers(profile) {
 }
 
 function createSpeakersSection() {
-  for (let i = 0; i < speakersArray.length; i++) {
+  for (let i = 0; i < speakersArray.length; i += 1) {
     createSpeakers(speakersArray[i]);
     if (i > 1) {
       document.querySelector(`.speaker${i + 1}`).classList.add('toggle');
@@ -70,12 +70,12 @@ function createSpeakersSection() {
 
 createSpeakersSection();
 
-// More 
+// More
 const more = document.querySelector('#more a');
 const speaker = document.querySelectorAll('.speaker');
 
 more.addEventListener('click', () => {
-  for (let i = 2; i < speaker.length; i++) {
+  for (let i = 2; i < speaker.length; i += 1) {
     speaker[i].classList.toggle('toggle');
   }
   if (speaker[2].classList.contains('toggle')) {
@@ -104,4 +104,3 @@ menuLinks.forEach((li) => {
     menu.classList.toggle('collapse');
   });
 });
-
