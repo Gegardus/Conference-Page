@@ -6,8 +6,7 @@ Conference Page
 
 > This is the first HTML/CSS & JavaScript capstone project in Microverse curriculum. The idea of a fictitious conference is borrowed from the film Don't Look Up - a 2021 American satirical science fiction film written, produced and directed by Adam McKay.
 
-![screenshot](./app_screenshot1.png)
-![screenshot](./app_screenshot2.png)
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
@@ -17,11 +16,11 @@ Conference Page
 
 ## Live Demo
 
-[Live Demo Link](https://gegardus.github.io/My-Portfolio/)
+[Live Demo Link](https://gegardus.github.io/Conference-Page/)
 
 ## Video Presentation
 
-[Presentation Link] ()
+[Presentation Link](https://gegardus.github.io/Conference-Page/)
 
 ## Getting Started
 
