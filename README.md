@@ -20,13 +20,13 @@ Conference Page
 
 ## Video Presentation
 
-[Presentation Link](https://gegardus.github.io/Conference-Page/)
+[Presentation Link](https://www.loom.com/share/0cefca4776db455ab2993e0bb40682c5)
 
 ## Getting Started
 
 To get a local copy, clone from the link below.
 
-https://github.com/Gegardus/Desktop-Version/tree/desktop
+https://github.com/Gegardus/Conference-Page/tree/lookup
 
 ## Author
 
