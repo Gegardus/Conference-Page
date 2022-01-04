@@ -103,7 +103,7 @@ header {
   justify-content: flex-start;
 }
 
-#cc-campaign {
+#campaign {
   display: none;
   border: 3px solid var(--colorOr);
   color: var(--colorOr);
