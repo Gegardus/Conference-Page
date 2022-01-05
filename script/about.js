@@ -1,8 +1,8 @@
 // Nav Menu
-const openMenu = document.querySelector('.navbar-main__toggler');
-const closeMenu = document.querySelector('.navbar-button__close');
-const menu = document.querySelector('.navbar-main__nav');
-const menuLinks = document.querySelectorAll('.navbar-main__list li');
+const openMenu = document.querySelector('.navbar_toggler');
+const closeMenu = document.querySelector('.navbar-button_close');
+const menu = document.querySelector('.navbar_nav');
+const menuLinks = document.querySelectorAll('.navbar_list li');
 
 closeMenu.addEventListener('click', () => {
   menu.classList.toggle('collapse');

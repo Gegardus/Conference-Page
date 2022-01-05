@@ -1,4 +1,4 @@
-const speakersSection = document.querySelector('#featured-speakers .container-fluid');
+const speakersSection = document.querySelector('#featured-speakers .container');
 const speakersArray = [{
   name: 'Janie Orlean',
   status: 'The President of the United States of America',
@@ -46,10 +46,10 @@ const speakersArray = [{
 function createSpeakers(profile) {
   speakersSection.innerHTML += `
   <article class="${profile.class} speaker">
-  <div class="featured-speakers__img">
+  <div class="featured-speakers_img">
       <img src="${profile.image}" alt="">
   </div>
-  <div class="featured-speakers__desc">
+  <div class="featured-speakers_desc">
       <h3>${profile.name}</h3>
       <h4>${profile.status}</h4>
       <hr>
@@ -86,10 +86,10 @@ more.addEventListener('click', () => {
 });
 
 // Nav Menu
-const openMenu = document.querySelector('.navbar-main__toggler');
-const closeMenu = document.querySelector('.navbar-button__close');
-const menu = document.querySelector('.navbar-main__nav');
-const menuLinks = document.querySelectorAll('.navbar-main__list li');
+const openMenu = document.querySelector('.navbar_toggler');
+const closeMenu = document.querySelector('.navbar-button_close');
+const menu = document.querySelector('.navbar_nav');
+const menuLinks = document.querySelectorAll('.navbar_list li');
 
 closeMenu.addEventListener('click', () => {
   menu.classList.toggle('collapse');
