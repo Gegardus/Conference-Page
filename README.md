@@ -26,7 +26,7 @@ Conference Page
 
 To get a local copy, clone from the link below.
 
-https://github.com/Gegardus/Conference-Page/tree/lookup
+https://github.com/Gegardus/Conference-Page
 
 ## Author
 
